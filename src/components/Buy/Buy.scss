@@ -1,0 +1,105 @@
+.buy {
+  margin: 50px 0;
+}
+
+.buy__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buy_title {
+  font-weight: 600;
+  font-size: 32px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.buy__subTitle {
+  color: #797a7b;
+  font-size: 20px;
+  margin-bottom: 65px;
+  text-align: center;
+}
+
+.buy__text {
+  color: #8b8c8d;
+  font-size: 20px;
+  margin: 0 200px;
+  text-align: center;
+  width: 50%;
+}
+
+.buy__inputColumn {
+  display: flex;
+  margin: 30px -10px;
+}
+
+.buy__name {
+  width: 50%;
+  padding: 0 10px;
+}
+
+.buy__input {
+  width: 100%;
+  border: 1px solid #cad5e1;
+  background-color: #f4f7f9;
+  font-size: 20px;
+  padding: 7px;
+  margin: 5px 0;
+}
+
+.buy__phone {
+  width: 50%;
+  padding: 0 10px;
+}
+
+.redStar {
+  color: red;
+}
+
+.buy__input {
+  border: 1px solid silver;
+}
+
+.HubSpot__blue {
+  color: #45bcce;
+}
+
+.buy__HubSpot {
+  font-size: 18px;
+  background: url('/img/HubSpot.png') 0 1px no-repeat;
+  padding-left: 36px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.buy__btn {
+  display: block;
+  height: 40px;
+  padding: 0 15px;
+  background-color: #76b941;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  margin: 15px 0 30px 0;
+}
+
+.buy__name {
+  font-size: 17px;
+
+}
+
+.buy__phone {
+  @extend .buy__name;
+}
+
+@media (max-width: 481px) {
+  .buy__text {
+    width: 100%;
+    margin: 0;
+  }
+}
